@@ -41,7 +41,43 @@
         let greeting = 'My name is ' + name;
         console.log(greeting);
 
+        console.log("Using function");
 
+        function makeSquare(theNumb) {
+          let squared = theNumb * theNumb;
+          return squared;
+        }
+
+        let try01 = makeSquare(3);
+        console.log(try01);
+
+        console.log(makeSquare(5));
+
+        function makeName(myName) {
+          let fullName = myName;
+          return fullName;
+        }
+
+        let try02 = makeName(name)
+        console.log(try02);
+
+        let firstName2 = 'Maria';
+        let middleName2 = 'Becho';
+        let lastName2 = 'Keene';
+        let name2 = firstName2 + " " + middleName2 + " " + lastName2;
+        
+        let try03 = makeName(name2)
+        console.log(try03);
+
+        let firstName3 = 'Robert';
+        let middleName3 = '"Beto"';
+        let lastName3 = "O'Rourke";
+        let name3 = firstName3 + " " + middleName3 + " " + lastName3;
+        
+        let try04 = makeName(name3)
+        console.log(try04);
+
+      
       
     </script>
 </body>
